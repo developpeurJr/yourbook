@@ -36,6 +36,9 @@ export default function Home() {
   return (
     <div className={styles.contain}>
       <div className={styles.page}>
+      <div className={styles.zoneBouton}>
+  <button className={styles.boutonSupport}>Show support</button>
+</div>
         <div className={styles.nav}>
           <div className={styles.zoneTextNav}>
             <h1 className={styles.titreNav}>RemindRead</h1>
