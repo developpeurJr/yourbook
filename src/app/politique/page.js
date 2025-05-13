@@ -78,7 +78,7 @@ export default function PrivacyPolicy() {
 
       <h2>7. Contact</h2>
       <p>
-        Pour toute question concernant cette politique de confidentialité, vous pouvez me contacter directement via l&apos;adresse email associée à cette application si elle est fournie : <strong>example@email.com</strong>
+        Pour toute question concernant cette politique de confidentialité, vous pouvez me contacter directement via l&apos;adresse email associée à cette application si elle est fournie : <strong>webynotif@email.com</strong>
       </p>
     </div>
   );
