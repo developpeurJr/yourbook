@@ -39,7 +39,7 @@ export default function PrivacyPolicy() {
 
       <h2>7. Contact</h2>
       <p>
-        For any questions regarding this privacy policy, you can contact me directly via the email address associated with this app if provided: <strong>example@email.com</strong>
+        For any questions regarding this privacy policy, you can contact me directly via the email address associated with this app if provided: <strong>webynotif@email.com</strong>
       </p>
 
       {/* French version */}
