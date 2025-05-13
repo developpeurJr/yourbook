@@ -2,7 +2,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import { useEffect, useState } from "react";
-
+import { FaHeart } from "react-icons/fa";
 export default function Home() {
   const [inputBook, setInputBook] = useState("")
   const [book, setBook] = useState([])
@@ -37,7 +37,7 @@ export default function Home() {
     <div className={styles.contain}>
       <div className={styles.page}>
       <div className={styles.zoneBouton}>
-  <button className={styles.boutonSupport}>Show support</button>
+ <a href="https://ko-fi.com/developperjrproject"><button className={styles.boutonSupport}> <FaHeart style={{ marginRight: '8px' }} /><p className={styles.textBouton}>Show support</p></button></a> 
 </div>
         <div className={styles.nav}>
           <div className={styles.zoneTextNav}>
@@ -72,7 +72,7 @@ export default function Home() {
       </div>
       <div className={styles.footer}>
         <p className={styles.linkfooter}>
-          <a href="/privacy-policy" style={{ color: "black" }}>
+          <a href="/politique" style={{ color: "black" }}>
             Privacy Policy
           </a>
         </p>
