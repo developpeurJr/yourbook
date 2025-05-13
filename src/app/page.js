@@ -51,7 +51,7 @@ export default function Home() {
         <div className={styles.zoneinputAdd}>
           <input
             className={styles.zoneinput}
-            placeholder="Note your movie series or books"
+            placeholder="Add a book title"
             onChange={(e) => setInputBook(e.target.value)}
           />
           <button className={styles.boutonPlus} onClick={addBook}>+</button>
