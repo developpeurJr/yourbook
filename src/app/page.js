@@ -37,7 +37,7 @@ export default function Home() {
     <div className={styles.contain}>
       <div className={styles.page}>
       <div className={styles.zoneBouton}>
- <a href="https://ko-fi.com/developperjrproject"><button className={styles.boutonSupport}> <FaHeart style={{ marginRight: '8px' }} /><p className={styles.textBouton}>Show support</p></button></a> 
+ <a href="https://ko-fi.com/developperjrproject"><button className={styles.boutonSupport}> <FaHeart style={{ marginRight: '8px' }} className={styles.hearthover} /><p className={styles.textBouton}>Show support</p></button></a> 
 </div>
         <div className={styles.nav}>
           <div className={styles.zoneTextNav}>
