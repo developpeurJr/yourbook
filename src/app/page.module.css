@@ -169,6 +169,7 @@ width: 100%;
    animation: heartbeat 1s infinite;
   transition: transform 0.2s ease-in-out;
 }
+
 @keyframes heartbeat {
   0%, 100% {
     transform: scale(1);
